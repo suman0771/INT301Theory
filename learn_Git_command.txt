@@ -7,4 +7,18 @@
 // and press "esc" then ":wq" to exit this file.
 7.) git init //to initialize directory
 8.) git add . //to add all files
-  
+9.) git commit -m "First commit" //git commit(updates are now in repository) with message
+10.) git log //details of Author, Date and commit id
+11.) git log --oneline //to show only commits with ID's
+12.) git remote add origin <link> //create a new remote called origin on <link> 
+13.) git remote -v //List the current remotes associated with the local repository
+14.) git push -u origin main //will push the current branch to a branch of the same name on <remote> 
+//(and also set up tracking so you can do git push after that)
+
+
+//branching
+15.) git branch local_branch// create local_branch
+16.) git checkout local_branch //access the branch and go to local_branch
+//or switch to local_branch
+17.) git add .
+18.) git commit -m "Second commit"
