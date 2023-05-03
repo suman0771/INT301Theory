@@ -1,0 +1,65 @@
+Basics of Shell Scripting
+
+
+1) Write a simple Bash program to get the following system variables:
+   a. pwd
+   b. logname
+
+2) Write a simple Bash program:
+   a. To ask username from user
+   b. Exit the program, if user does not enter anything within 10 seconds
+   
+   Hint: read -t 10 -p
+
+
+Command Line arguments and Quoting
+
+1) Write a bash program for addition using command line arguments.
+
+
+Conditional execution
+
+1) Write a script which will take your name as an input.
+2) It should check this name with your system's username.
+3) If the username matches, it should greet you by displaying "Hello".
+4) Else, it should display "Try again"
+
+HINT: Your system's username is stored in a variable $USER 
+
+
+Nested and multilevel if elsif statements
+
+1) Write a program to output different messages when number is:
+   a. Greater than 3
+   b. Lesser than 3
+   c. Or equal to 3
+   d. Or when the user input is empty
+
+Logical Operators
+
+1) Check whether the file exists and is executable using logical operators.
+   Hint:man test
+
+Arithmetic Comparison
+
+1) Write a program to demonstrate the use of not equal to operator.
+   Hint: -ne
+
+String and File attributes
+
+1) Explore some more attributes
+   -r
+   -x
+   -o
+
+
+
+
+Case statement
+
+1) Write a menu driven program for mathematical calculation
+   a. It should take user inputs a and b
+   b. It should ask for mathematical operator (+, -, / and *).
+   c. Do the calculation
+   d. Print the output
+

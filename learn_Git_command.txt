@@ -1,0 +1,10 @@
+1.) git status 
+2.) git config --global user.name "Suman" //set Git configuration values on a global or local project level
+3.) git config --global user.email "suman@gmail.com" 
+4.) git config --global user.name //to check config. name
+5.) git config --global user.email //to check config. email
+6.) git config --global --edit //if username or email are not config then edit it manually 
+// and press "esc" then ":wq" to exit this file.
+7.) git init //to initialize directory
+8.) git add . //to add all files
+  
