@@ -20,4 +20,8 @@
 15.) git branch local_branch// create local_branch
 16.) git checkout local_branch //access the branch and go to local_branch
 //or switch to local_branch
-17.) 
+17.) git add .
+18.) git commit -m "Second commit"
+19.) git push -u origin local_branch
+
+
